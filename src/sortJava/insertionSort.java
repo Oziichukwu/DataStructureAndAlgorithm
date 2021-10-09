@@ -2,19 +2,19 @@ package sortJava;
 
 public class insertionSort {
 
-    public static void performSort(int []data){
+    public static void performSort(int[] numbers) {
 
-        for (int currentIndex = 0; currentIndex < data.length; currentIndex++) {
-
-            int insertValue = data[currentIndex];
+        for (int currentIndex = 0; currentIndex < numbers.length; currentIndex++) {
+            int valueToInsert = numbers[currentIndex];
             int moveIndex = currentIndex;
 
-            while (moveIndex > 0 && data[moveIndex-1] > insertValue){
+            while (moveIndex > 0 && numbers[moveIndex-1] > valueToInsert){
 
-                data[moveIndex] = data[moveIndex-1];
+                numbers[moveIndex] = numbers[moveIndex-1];
+
                 moveIndex--;
             }
-            data[moveIndex] = insertValue;
+            numbers[moveIndex] = valueToInsert;
         }
     }
 }
