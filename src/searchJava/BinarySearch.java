@@ -7,7 +7,7 @@ public class BinarySearch {
         int low = 0;
 
         while (low <= high) {
-            int midPointNumber =(high + low) /2; //low + ((high - low) / 2);
+            int midPointNumber = (high + low) /2; //low + ((high - low) / 2);
 
             if (numbers[midPointNumber] == target)
                 return midPointNumber;
