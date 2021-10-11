@@ -25,12 +25,14 @@ public class MergeSort {
 
         for (int i = 0; i < leftArray.length; i++) {
 
-            leftArray[i] = array[lowestIndex + i]; // left array holds left half of our splited array
+            leftArray[i] = array[lowestIndex + i];
+            // left array holds left half of our splited array
         }
 
         for (int i = 0; i < rightArray.length; i++) {
 
-            rightArray[i] = array[middleIndex + i + 1]; // right array holds the right of our splited array
+            rightArray[i] = array[middleIndex + i + 1];
+            // right array holds the right of our splited array
 
         }
 
