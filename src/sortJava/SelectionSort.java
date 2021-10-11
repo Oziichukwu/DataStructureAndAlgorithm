@@ -27,12 +27,6 @@ public class SelectionSort {
         return array;
     }
 
-
-
-
-
-
-
     public static  int [] selectionSort2( int array []){
 
     int smallestNumber = 0;
@@ -58,15 +52,6 @@ public class SelectionSort {
     return array;
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
