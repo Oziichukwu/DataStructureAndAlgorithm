@@ -17,4 +17,52 @@ public class insertionSort {
             numbers[moveIndex] = valueToInsert;
         }
     }
+
+
+
+
+
+
+public static void doInsertionSort(int [] array, int target){
+
+    for (int currentIndex = 0; currentIndex < array.length; currentIndex++) {
+                int numberToBeInserted    = array[currentIndex];
+                int indexToMove = currentIndex;
+
+                while (indexToMove > 0 && array[currentIndex - 1] > numberToBeInserted){
+
+                    array[indexToMove] = array[currentIndex - 1];
+
+                    indexToMove--;
+                }
+                array[indexToMove] = numberToBeInserted;
+    }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
