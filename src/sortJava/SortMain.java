@@ -7,14 +7,13 @@ public class SortMain {
 
     public static void main(String[] args) {
 
-        int [] numbersToSort = new int[20];
+        int [] numbersToSort = new int[11];
 
         SecureRandom mySecureRandom = new SecureRandom();
 
         for (int i = 0; i < numbersToSort.length; i++) {
 
             numbersToSort[i] = 10 + mySecureRandom.nextInt(90);
-
         }
         System.out.println("These numbers are unsorted" + Arrays.toString(numbersToSort));
 
