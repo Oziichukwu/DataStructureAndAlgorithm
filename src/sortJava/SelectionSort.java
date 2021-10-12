@@ -2,15 +2,12 @@ package sortJava;
 
 public class SelectionSort {
 
-
     public static int[] selectionSort(int[] array) {
 
-        int smallIndex = 0;
-        int smallestNumber = 0;
 
         for (int i = 0; i < array.length; i++) {
-            smallestNumber = array[i];
-            smallIndex = i;
+          int  smallestNumber = array[i];
+          int  smallIndex = i;
 
             for (int j = i + 1; j < array.length; j++) {
                 if (array[j] < smallestNumber) {
