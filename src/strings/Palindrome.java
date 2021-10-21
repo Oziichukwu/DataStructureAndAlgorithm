@@ -19,7 +19,7 @@ public class Palindrome {
                 return "its a palindrome";
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         String name = "123321";
         System.out.println(checkIfItsAPalindrome2(name));
     }
