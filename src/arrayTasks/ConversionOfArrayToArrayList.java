@@ -22,13 +22,5 @@ public class ConversionOfArrayToArrayList {
         }
         System.out.println(list2);
 
-
-            Arrays.fill(array,0);
-        for (int i = 0; i < array.length; i++) {
-            for (int number : list2){
-                array[i] = number;
-            }
-        }
-        System.out.println(Arrays.toString(array));
     }
 }
