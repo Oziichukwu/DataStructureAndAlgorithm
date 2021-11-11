@@ -1,10 +1,10 @@
 package strategyPattern;
 
-public class KnifeBehaviour implements WeaponBehaviour{
+public class AxeBehaviour implements WeaponBehaviour{
 
 
     @Override
     public String useWeapon() {
-        return "cutting with knife";
+        return "chopping with an axe";
     }
 }

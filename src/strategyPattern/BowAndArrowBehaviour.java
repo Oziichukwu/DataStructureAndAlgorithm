@@ -1,10 +1,10 @@
 package strategyPattern;
 
-public class SwordBehaviour implements WeaponBehaviour{
+public class BowAndArrowBehaviour implements WeaponBehaviour{
 
 
     @Override
     public String useWeapon() {
-        return "swinging a sword";
+        return "flinging a bow and arrow";
     }
 }
