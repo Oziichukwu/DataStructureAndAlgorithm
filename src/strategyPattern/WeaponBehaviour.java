@@ -1,2 +1,6 @@
-package strategyPattern;public interface WeaponBehaviour {
+package strategyPattern;
+
+public interface WeaponBehaviour {
+
+    String useWeapon();
 }
